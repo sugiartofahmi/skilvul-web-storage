@@ -8,6 +8,57 @@
     <link rel="stylesheet" href="./assets/css/index.css" />
   </head>
   <body>
-    <script src="./assets/js/index.js"></script>
+    <main>
+      <section class="container">
+        <section class="container-input">
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            placeholder="First Name"
+          />
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            placeholder="Last Name"
+          />
+          <select name="" id="">
+            <option selected disabled value="">Select Gender</option>
+            <option value="">Male</option>
+            <option value="">Female</option>
+          </select>
+          <textarea
+            placeholder="Address"
+            name=""
+            id=""
+            cols="30"
+            rows="3"
+          ></textarea>
+          <select name="" id="">
+            <option selected disabled value="">Select Storage</option>
+            <option value="">Session Storage</option>
+            <option value="">Local Storage</option>
+            <option value="">Cookie Storage</option>
+          </select>
+        </section>
+        <section class="container-btn">
+          <button class="btn">New Data</button>
+          <button class="btn">All Data</button>
+        </section>
+      </section>
+      <section class="container storage">
+        <section>
+          <h1>Session Storage</h1>
+        </section>
+        <section>
+          <h1>Local Storage</h1>
+        </section>
+        <section>
+          <h1>Cookie Storage</h1>
+        </section>
+      </section>
+    </main>
+    <script type="module" src="./assets/js/index.js"></script>
   </body>
 </html>
