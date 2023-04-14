@@ -39,9 +39,12 @@ main {
   align-items: center;
   display: flex;
   flex-direction: row;
+  height: 100%;
 }
 
 .content {
   display: flex;
   flex-direction: column;
+  height: 100%;
+  align-self: flex-start;
 }
